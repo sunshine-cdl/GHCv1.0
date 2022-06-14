@@ -42,7 +42,7 @@ AC_DEFUN([FPTOOLS_SET_HASKELL_PLATFORM_VARS_SHELL_FUNCTIONS],
         riscv64)
             test -z "[$]2" || eval "[$]2=ArchRISCV64"
             ;;
-        hppa|hppa1_1|ia64|m68k|nios2|riscv32|rs6000|s390|sh4|vax)
+        hppa|hppa1_1|ia64|m68k|nios2|riscv32|rs6000|s390|sh4|vax|loongarch64)
             test -z "[$]2" || eval "[$]2=ArchUnknown"
             ;;
         *)

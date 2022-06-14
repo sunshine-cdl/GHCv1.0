@@ -1,0 +1,11 @@
+prefix=/home/hiropoi/Desktop/GHCtime/GHCv1.0/libffi/build/inst
+exec_prefix=${prefix}
+libdir=/home/hiropoi/Desktop/GHCtime/GHCv1.0/libffi/build/inst/lib
+toolexeclibdir=${libdir}/../lib64
+includedir=${prefix}/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

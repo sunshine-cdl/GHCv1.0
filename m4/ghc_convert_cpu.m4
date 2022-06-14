@@ -20,6 +20,9 @@ case "$1" in
   hppa*)
     $2="hppa"
     ;;
+  loongarch64*)
+    $2="loongarch64"
+    ;;
   i386|i486|i586|i686)
     $2="i386"
     ;;
